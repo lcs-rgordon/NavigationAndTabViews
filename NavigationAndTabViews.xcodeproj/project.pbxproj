@@ -11,6 +11,7 @@
 		817E17C5299438990014B4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E17C4299438990014B4A7 /* Assets.xcassets */; };
 		817E17C8299438990014B4A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E17C7299438990014B4A7 /* Preview Assets.xcassets */; };
 		817E17D0299438DE0014B4A7 /* TabOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E17CF299438DE0014B4A7 /* TabOneView.swift */; };
+		817E17D2299439470014B4A7 /* TabTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E17D1299439470014B4A7 /* TabTwoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		817E17C4299438990014B4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817E17C7299438990014B4A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		817E17CF299438DE0014B4A7 /* TabOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneView.swift; sourceTree = "<group>"; };
+		817E17D1299439470014B4A7 /* TabTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				817E17CF299438DE0014B4A7 /* TabOneView.swift */,
+				817E17D1299439470014B4A7 /* TabTwoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				817E17C1299438980014B4A7 /* NavigationAndTabViewsApp.swift in Sources */,
+				817E17D2299439470014B4A7 /* TabTwoView.swift in Sources */,
 				817E17D0299438DE0014B4A7 /* TabOneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
