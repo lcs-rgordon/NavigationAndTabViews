@@ -14,11 +14,15 @@ struct NavigationAndTabViewsApp: App {
             TabView {
                 TabOneView()
                     .tabItem {
+                        // Can use SF Symbols app to find images to use
+                        // https://developer.apple.com/sf-symbols/
+                        Image(systemName: "sun.min")
                         Text("Tab 1")
                     }
                 
                 TabTwoView()
                     .tabItem {
+                        Image(systemName: "moon.fill")
                         Text("Tab 2")
                     }
             }
