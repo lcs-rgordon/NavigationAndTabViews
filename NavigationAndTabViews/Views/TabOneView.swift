@@ -9,9 +9,16 @@ import SwiftUI
 
 struct TabOneView: View {
     var body: some View {
-        Text("Tab 1")
-            .font(.largeTitle)
-            .fontWeight(.black)
+        ZStack {
+            
+            // Layer 1
+            Color.red
+            
+            // Layer 2
+            Text("Tab 1")
+                .font(.largeTitle)
+                .fontWeight(.black)
+        }
     }
 }
 

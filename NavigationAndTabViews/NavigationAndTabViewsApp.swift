@@ -11,7 +11,17 @@ import SwiftUI
 struct NavigationAndTabViewsApp: App {
     var body: some Scene {
         WindowGroup {
-            TabOneView()
+            TabView {
+                TabOneView()
+                    .tabItem {
+                        Text("Tab 1")
+                    }
+                
+                TabTwoView()
+                    .tabItem {
+                        Text("Tab 2")
+                    }
+            }
         }
     }
 }
