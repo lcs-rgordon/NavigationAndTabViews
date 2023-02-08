@@ -9,17 +9,19 @@ import SwiftUI
 
 struct TabTwoView: View {
     var body: some View {
-        ZStack {
-            
-            // Layer 1
-            Color.blue
-            
-            // Layer 2
-            Text("Tab 2")
-                .font(.largeTitle)
-                .fontWeight(.black)
+        NavigationView {
+            ZStack {
+                
+                // Layer 1
+                Color.blue
+                
+                // Layer 2
+                Text("Body text for tab 2")
+            }
+            // NOTE: .navigationTitle must appear on first structure
+            // within the NavigationView, which in this case is the ZStack
+            .navigationTitle("Tab 2")
         }
-
     }
 }
 
